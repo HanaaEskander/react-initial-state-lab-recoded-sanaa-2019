@@ -11,9 +11,10 @@ import React, {Component} from 'react';
   Gone = () =>{
     if(this.state.secondsLeft == 0){
       return (<h1>Boom!</h1>);
-      return (<p>{this.state.secondsLeft} seconds left before I go boom!</p>);
+     
     }else{
-      return (<p>Boom!</p>);
+    
+       return (<h4>{this.state.secondsLeft} seconds left before I go boom!</h4>);
     }
   }
   render(){
