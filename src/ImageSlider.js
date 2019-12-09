@@ -2,7 +2,7 @@
 
 import React, {Component} from 'react';
 
-export default class ImageSlider extends Component{
+ class ImageSlider extends Component{
   constructor(props){
     super(props)
     this.state = {
@@ -17,3 +17,4 @@ export default class ImageSlider extends Component{
     );
   }
 }
+export default ImageSlider;
