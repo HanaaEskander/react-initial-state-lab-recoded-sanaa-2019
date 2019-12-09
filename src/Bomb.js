@@ -8,8 +8,9 @@ import React, {Component} from 'react';
     secondsLeft: this.props.initialCount
   }
 }
-  widgetText = () =>{
-    if(this.state.secondsLeft !== 0){
+  Gone = () =>{
+    if(this.state.secondsLeft == 0){
+      return (<h1>Boom!</h1>);
       return (<p>{this.state.secondsLeft} seconds left before I go boom!</p>);
     }else{
       return (<p>Boom!</p>);
